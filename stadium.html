@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Bernabéu</title>
+    <style>
+      body {
+        background-image: url(bernebeu1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      img {
+        height: 220px;
+        width: auto;
+        border-radius: 20px;
+      }
+      table,
+      tr,
+      td {
+        padding: 10px 27px;
+      }
+      p {
+        font-size: 20px;
+        text-align: center;
+      }
+      .btn {
+        height: 30px;
+        width: 150px;
+        text-align: center;
+        background-color: white;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 30px;
+        border-color: white;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+      .bounce-top {
+        -webkit-animation: bounce-top 0.9s both;
+        animation: bounce-top 0.9s both;
+      }
+      @-webkit-keyframes bounce-top {
+        0% {
+          -webkit-transform: translateY(-45px);
+          transform: translateY(-45px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+          opacity: 1;
+        }
+        24% {
+          opacity: 1;
+        }
+        40% {
+          -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+        }
+        65% {
+          -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+        }
+        82% {
+          -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+        }
+        93% {
+          -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+        }
+        25%,
+        55%,
+        75%,
+        87% {
+          -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+        }
+        100% {
+          -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+          opacity: 1;
+        }
+      }
+      @keyframes bounce-top {
+        0% {
+          -webkit-transform: translateY(-45px);
+          transform: translateY(-45px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+          opacity: 1;
+        }
+        24% {
+          opacity: 1;
+        }
+        40% {
+          -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+        }
+        65% {
+          -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+        }
+        82% {
+          -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+        }
+        93% {
+          -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+        }
+        25%,
+        55%,
+        75%,
+        87% {
+          -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+        }
+        100% {
+          -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bounce-top">
+      <h1 style="text-align: center">
+        The Bernabéu <br />
+        Stadium Evolution
+      </h1>
+    </div>
+    <hr />
+    <table>
+      <tr>
+        <td>
+          <img src="stadium.jpg" /><br />
+          <p><b>1947 – Nuevo Chamartín</b></p>
+        </td>
+        <td>
+          <img src="sdm.jpg" /><br />
+          <p><b>1954 – Expanded Stadium</b></p>
+        </td>
+        <td>
+          <img src="sdm1.jpg" /><br />
+          <p><b>1955 – Santiago Bernabéu</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="sdm2.jpg" /><br />
+          <p><b>1982 – World Cup Renovation</b></p>
+        </td>
+        <td>
+          <img src="sdm3.jpg" style="margin-left: 24px" /><br />
+          <p><b>1994 – Four Towers Era</b></p>
+        </td>
+        <td>
+          <img src="sdm4.jpg" /><br />
+          <p><b>2006 – Modern Bernabéu</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2">
+          <img src="sdm5.jpg" /><br />
+          <p style="text-align: left; margin-left: 75px">
+            <b>2024 – New Bernabéu</b>
+          </p>
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <nav>
+      <p style="text-align: center">
+        <button class="btn"><a href="Project.html">Home</a></button
+        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn"><a href="trophies.html">Trophies</a></button
+        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn"><a href="kits.html">Kits</a></button
+        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn">
+          <a href="goals-gallery.html">Goals-Gallery</a></button
+        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn"><a href="the goat.html">The GOAT</a></button>
+      </p>
+    </nav>
+  </body>
+</html>

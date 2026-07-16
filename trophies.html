@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trophies Cabinet</title>
+    <style>
+      body {
+        background-image: url(tc1.png);
+        background-size: 100%;
+      }
+      h1 {
+        text-align: center;
+        font-size: 50px;
+      }
+      .slide-in-blurred-top {
+        -webkit-animation: slide-in-blurred-top 0.6s
+          cubic-bezier(0.23, 1, 0.32, 1) both;
+        animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+      }
+
+      @-webkit-keyframes slide-in-blurred-top {
+        0% {
+          -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+          transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+          -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+          -webkit-filter: blur(40px);
+          filter: blur(40px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+          transform: translateY(0) scaleY(1) scaleX(1);
+          -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+          -webkit-filter: blur(0);
+          filter: blur(0);
+          opacity: 1;
+        }
+      }
+      @keyframes slide-in-blurred-top {
+        0% {
+          -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+          transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+          -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+          -webkit-filter: blur(40px);
+          filter: blur(40px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+          transform: translateY(0) scaleY(1) scaleX(1);
+          -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+          -webkit-filter: blur(0);
+          filter: blur(0);
+          opacity: 1;
+        }
+      }
+      table,
+      tr,
+      td {
+        padding: 20px 30px;
+      }
+      img {
+        height: 200px;
+        width: auto;
+        border-radius: 10px;
+      }
+      .btn{
+  height: 30px;
+  width: 150px;
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 30px;
+  border-color: white;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+p{
+  font-size: 20px;
+  text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <div class="slide-in-blurred-top">
+      <h1>Welcome to Real Madrid's Trophies Cabinet</h1>
+    </div><hr>
+    <table>
+      <tr>
+        <td>
+          <a href="ucl.html"><img src="ucl.avif" /></a><br />
+          <p><b>UEFA Champions League (15)</b></p>
+        </td>
+
+        <td>
+          <a href="laliga.html"><img src="laliga.avif" /></a><br />
+          <ul>
+          <p><b>La Liga - League Title (36)</b></p>
+        </td>
+        <td>
+          <a href="club world cup.html">
+            <img src="club world cup (1).jpg.webp"  />
+          </a>
+          <p><b>FIFA Club World Cup (5)</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <br />
+          <a href="super cup.html"><img src="super cup.jpg" /> </a> <br />
+         <p><b>UEFA Super Cup (6)</b></p>
+        </td>
+        <td>
+          <br />
+          <a href="copa del rey.html"><img src="copa.webp" /></a><br />
+          <p><b>Copa Del Rey (20)</b></p>
+        </td>
+        <td>
+          <br />
+          <a href="supercopa.html"
+            ><img src="supercopa.jpeg" style="margin-left: 30px;margin-top: 25px;" /></a
+          ><br />
+          <p><b>Supercopa de España <br> 'Spanish Super Cup' (13)</b></p>
+        </td>
+      </tr>
+    </table><hr>
+    <p><ul><li><b> Click the image to see the explanation of each trophies</b></li></ul></p><hr>
+    <nav>
+  <p style="text-align: center;">
+      <button class="btn"><a href="Project.html">Home</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn"><a href="kits.html">Kits</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn"><a href="stadium.html">Stadium</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn"><a href="goals-gallery.html">Goals-Gallery</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="btn"><a href="the goat.html">The GOAT</a></button>
+    </p>
+</nav>
+  </body>
+</html>
